@@ -20,8 +20,15 @@ const pokemons = defineProps(['pokemonList']);
 <style lang="scss">
 .c-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 300px));
     gap: 0.5rem;
+
+    @media only screen and (min-width: 420px) {
+        grid-template-columns: repeat(2, minmax(200px, 300px));
+    }
+
+    @media only screen and (min-width: 640px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     @media only screen and (min-width: 968px) {
         grid-template-columns: repeat(4, 1fr);
