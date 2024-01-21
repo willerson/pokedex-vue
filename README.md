@@ -2,6 +2,8 @@
 
 This is a simple Pokédex project developed using Vue.js. The application allows users to search for the first 151 Pokémon, displaying cards with an image, name and number based on the input provided.
 
+![image](https://github.com/willerson/pokedex-vue/assets/22488088/9d0b408c-53ef-4422-bdd3-5d23d3970946)
+
 ## Getting Started
 
 These instructions will give you a copy of the project up and running on
