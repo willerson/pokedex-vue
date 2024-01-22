@@ -10,7 +10,6 @@ let pokemonData = reactive({ list: { sprites: { front_default: '' } } });
 onMounted(async () => { 
     const data = await fetchData(pokemon.pokemon.url);
     pokemonData.list = data;
-    console.log(pokemonData.list.sprites.front_default)
 });
 </script>
 
