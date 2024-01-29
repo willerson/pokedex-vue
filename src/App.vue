@@ -14,7 +14,7 @@ onMounted(async () => {
 });
 
 const handleSearch = (searchTerm) => {
-  filteredPokemons.list = pokemons.list.filter(pokemon => pokemon.name.includes(searchTerm.toLowerCase()));
+  filteredPokemons.list = pokemons.list.filter(pokemon => pokemon.name.startsWith(searchTerm.toLowerCase()));
 };
 
 </script>
